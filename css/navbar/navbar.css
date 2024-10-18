@@ -1,0 +1,43 @@
+.navbar {
+  width: 100%;
+  background-color: var(--black);
+  padding: 2% 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-nav {
+  gap: 1rem;
+}
+
+.nav-link {
+  font-weight: normal;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.nav-link:hover {
+  background: linear-gradient(180deg, #00bfff, #1e90ff, #4169e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.nav-link + .active {
+  background: linear-gradient(180deg, #00bfff, #1e90ff, #4169e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.nav-link:focus {
+  background: linear-gradient(180deg, #00bfff, #1e90ff, #4169e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}

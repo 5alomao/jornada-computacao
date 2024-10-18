@@ -1,0 +1,59 @@
+.welcome {
+  background: linear-gradient(#222, #555);
+  color: var(--white);
+  padding: 3% 0;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.welcome-d1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.welcome h1 {
+  font-size: 3rem;
+  background: linear-gradient(180deg, #00bfff, #1e90ff, #4169e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.welcome p {
+  margin-top: 2.5rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.welcome p i {
+  background: linear-gradient(180deg, #00bfff, #1e90ff, #4169e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+}
+
+.welcome img {
+  width: 300px;
+  height: 300px;
+  background-color: #444;
+}
+
+@media (max-width: 768px) {
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+  }
+}
