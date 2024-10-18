@@ -1,11 +1,14 @@
 .welcome {
-  background: linear-gradient(#222, #555);
+  background: linear-gradient(to bottom, #222, #262626);
+  /* background-color: var(--black); */
   color: var(--white);
   padding: 3% 0;
-  display: flex;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 3rem;
-  justify-content: center;
+  justify-items: center;
 }
 
 .welcome-d1 {
@@ -13,12 +16,12 @@
   flex-direction: column;
 }
 
-.welcome h2 {
+.welcome-d1 h2 {
   font-size: 2rem;
   font-weight: 300;
 }
 
-.welcome h1 {
+.welcome-d1 h1 {
   font-size: 3rem;
   background: linear-gradient(180deg, #00bfff, #1e90ff, #4169e1);
   -webkit-background-clip: text;
@@ -27,13 +30,13 @@
   color: transparent;
 }
 
-.welcome p {
+.welcome-d1 p {
   margin-top: 2.5rem;
   font-weight: 300;
   font-size: 1.5rem;
 }
 
-.welcome p i {
+.welcome-d1 p i {
   background: linear-gradient(180deg, #00bfff, #1e90ff, #4169e1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

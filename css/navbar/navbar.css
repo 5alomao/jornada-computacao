@@ -1,6 +1,7 @@
 .navbar {
   width: 100%;
   background-color: var(--black);
+  position: fixed;
   padding: 2% 0;
 }
 
