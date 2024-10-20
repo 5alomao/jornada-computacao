@@ -2,10 +2,48 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 16px;
 }
 
 :root {
-  --black: #222;
+  --black: #141414;
   --white: #fff;
+  --light-blue: #00bfff;
+  --blue: #1e90ff;
+  --dark-blue: #04205e;
+  --dark-blue-2: #4169e1;
+}
+
+body {
+  background-color: var(--black);
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+@media (max-width: 1300px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 10px;
+  }
 }

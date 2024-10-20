@@ -1,0 +1,72 @@
+.home-bottom {
+  width: 100%;
+  grid-column: 1/-1;
+  margin-top: 8%;
+}
+
+.home-bottom h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 1% 0;
+}
+
+.datetime-text {
+  display: flex;
+  margin: 5% 0;
+  justify-content: center;
+  color: var(--white);
+}
+
+.datetime-text .row {
+  width: 100%;
+}
+
+.datetime-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  text-align: center;
+  background-color: #1818189a;
+  border: 1px solid var(--blue);
+}
+
+.datetime-box div h5 {
+  font-size: 3.8rem;
+}
+
+.datetime-box div p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .home-bottom {
+    margin-top: 10%;
+  }
+
+  .home-bottom h2 {
+    font-size: 1.8rem;
+  }
+
+  .datetime-box div h5 {
+    font-size: 3.5rem;
+  }
+
+  .datetime-box div p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-bottom h2 {
+    font-size: 1.7rem;
+  }
+
+  .datetime-box div h5 {
+    font-size: 3rem;
+  }
+
+  .datetime-box div p {
+    font-size: 1rem;
+  }
+}

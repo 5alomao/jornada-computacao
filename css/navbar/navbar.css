@@ -1,44 +1,67 @@
 .navbar {
-  width: 100%;
   background-color: var(--black);
-  position: fixed;
-  padding: 2% 0;
+  padding: 2% 5%;
+}
+
+.navbar > div.container-fluid {
+  padding: 1% 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar img {
+  width: 6rem;
+  object-fit: scale-down;
+}
+
+.navbar span.subscribe {
+  display: block;
+  width: fit-content;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: 3px solid var(--blue);
+  border-radius: 10px;
+  background-color: transparent;
+  color: var(--white);
+  padding: 10px 30px;
+  transition: border-radius 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.navbar span.subscribe:hover {
+  background-color: var(--blue);
+  border-radius: 0px;
+}
+
+.navbar-toggler {
+  /* background-color: var(--white); */
+  border: none;
 }
 
 .navbar-toggler:focus {
   box-shadow: none;
 }
 
+.navbar-toggler i {
+  color: var(--white);
+  font-size: 2.5rem;
+}
 .navbar-nav {
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .nav-link {
-  font-weight: normal;
   font-size: 1.1rem;
-  color: white;
+  color: var(--white);
 }
 
 .nav-link:hover {
-  background: linear-gradient(180deg, #00bfff, #1e90ff, #4169e1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+  color: var(--blue);
 }
 
 .nav-link + .active {
-  background: linear-gradient(180deg, #00bfff, #1e90ff, #4169e1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+  color: var(--blue);
 }
 
 .nav-link:focus {
-  background: linear-gradient(180deg, #00bfff, #1e90ff, #4169e1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+  color: var(--blue);
 }
