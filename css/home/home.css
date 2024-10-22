@@ -17,16 +17,6 @@
 
 .home-left h1 {
   font-size: 3.5rem;
-  background: linear-gradient(
-    180deg,
-    var(--light-blue),
-    var(--blue),
-    var(--dark-blue-2)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
 }
 
 .home-left p:first-of-type {
@@ -92,7 +82,6 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    background: linear-gradient(to bottom, var(--black) 65%, var(--dark-blue));
   }
 
   .home-left,

@@ -1,29 +1,28 @@
 .navbar {
   background-color: var(--black);
-  padding: 2% 5%;
+  padding: 1.5% 5%;
 }
 
 .navbar > div.container-fluid {
-  padding: 1% 0;
   display: flex;
   align-items: center;
 }
 
 .navbar img {
-  width: 6rem;
+  width: 5rem;
   object-fit: scale-down;
 }
 
 .navbar span.subscribe {
   display: block;
   width: fit-content;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   border: 3px solid var(--blue);
   border-radius: 10px;
   background-color: transparent;
   color: var(--white);
-  padding: 10px 30px;
+  padding: 8px 30px;
   transition: border-radius 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
@@ -50,7 +49,7 @@
 }
 
 .nav-link {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--white);
 }
 

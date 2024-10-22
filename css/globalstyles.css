@@ -19,7 +19,10 @@ html {
 }
 
 body {
-  background-color: var(--black);
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  background-color: #282828;
 }
 
 p,
@@ -28,6 +31,19 @@ h2,
 h3,
 h4 {
   margin: 0;
+}
+
+.eventNameColor {
+  background: linear-gradient(
+    180deg,
+    var(--light-blue),
+    var(--blue),
+    var(--dark-blue-2)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 @media (max-width: 1300px) {
