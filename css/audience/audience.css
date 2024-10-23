@@ -3,11 +3,11 @@
   padding: 5% 10%;
   /* overflow: hidden; */
   background-image: url("/assets/images/fundo3.png");
-  background-color: var(--black);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
   background-attachment: fixed;
+  background-color: var(--black);
 }
 
 /* .grid-bg {

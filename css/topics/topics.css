@@ -1,9 +1,12 @@
 .topics {
   padding: 5% 10%;
   background-color: var(--black);
+  background-image: url("/assets/images/fundo3.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  background-attachment: fixed;
   color: var(--white);
-  overflow: hidden;
-  height: 100vh;
 }
 
 .topics-title {
@@ -12,8 +15,49 @@
 }
 
 .topics-title h2 {
+  font-size: 2.2rem;
   margin-bottom: 0.5rem;
 }
 
 .topics-title p {
+  font-size: 1.1rem;
+}
+
+.topics-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-items: center;
+}
+
+.topic-card {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  justify-items: center;
+  align-items: center;
+  /* background-color: var(--black); */
+  background-color: #141414bb;
+  padding: 3rem 0;
+  /* border-top: 2px solid var(--blue); */
+  border-radius: 5px;
+  border-bottom: 5px solid var(--blue);
+}
+
+.topic-card div h3 {
+  margin-bottom: 1rem;
+}
+
+.topic-card p {
+  text-align: justify;
+  width: 90%;
+}
+
+.topic-card i {
+  font-size: 5rem;
+  color: var(--white);
+  border: 2px solid var(--white);
+  background-color: #222222bb;
+  padding: 2rem;
+  border-radius: 100%;
+  box-shadow: 1px 1px 10px var(--white);
 }
