@@ -1,0 +1,151 @@
+.supporters {
+  background-color: var(--black);
+  padding: 5% 10%;
+}
+
+.supporters-title {
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.supporters-title h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.level-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-bottom: 1rem;
+}
+
+.level-title i {
+  font-size: 4rem;
+  padding: 20px;
+  border-radius: 100%;
+}
+
+.diamond {
+  color: #74efff;
+  border-bottom: 2px solid #74efff;
+}
+
+.diamond i {
+  box-shadow: 1px 1px 10px #74efff;
+}
+
+.gold {
+  color: #ffd700;
+  border-bottom: 2px solid #ffd700;
+}
+
+.gold i {
+  box-shadow: 1px 1px 10px #ffd700;
+}
+
+.silver {
+  color: #c0c0c0;
+  border-bottom: 2px solid #c0c0c0;
+}
+
+.silver i {
+  box-shadow: 1px 1px 10px #c0c0c0;
+}
+
+.bronze {
+  color: #cd7f32;
+  border-bottom: 2px solid #cd7f32;
+}
+
+.bronze i {
+  box-shadow: 1px 1px 10px #cd7f32;
+}
+
+.supporters-list {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.supporters-card a {
+  display: block;
+  text-align: center;
+  transition: color 0.3s ease-in-out;
+}
+
+.supporters-card a:hover {
+  color: var(--blue);
+}
+
+.diamond-supporters .supporters-card img {
+  width: 400px;
+}
+
+.gold-supporters .supporters-card img {
+  width: 300px;
+}
+
+.silver-supporters .supporters-card img {
+  width: 220px;
+}
+
+.bronze-supporters .supporters-card img {
+  width: 170px;
+}
+
+.supporter-btn {
+  display: block;
+  width: fit-content;
+  font-size: 1.2rem;
+  box-shadow: 1px 1px 8px var(--blue);
+  background-color: var(--blue);
+  margin: 3rem auto;
+  padding: 10px 30px;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}
+
+.supporter-btn:hover {
+  box-shadow: 1px 1px 20px var(--blue);
+  background-color: var(--white);
+  color: var(--blue);
+}
+
+@media (max-width: 768px) {
+  .diamond-supporters .supporters-card img {
+    width: 300px;
+  }
+
+  .gold-supporters .supporters-card img {
+    width: 200px;
+  }
+
+  .silver-supporters .supporters-card img {
+    width: 170px;
+  }
+
+  .bronze-supporters .supporters-card img {
+    width: 140px;
+  }
+}
+
+@media (max-width: 576px) {
+  .diamond-supporters .supporters-card img {
+    width: 250px;
+  }
+
+  .gold-supporters .supporters-card img {
+    width: 150px;
+  }
+
+  .silver-supporters .supporters-card img {
+    width: 130px;
+  }
+
+  .bronze-supporters .supporters-card img {
+    width: 100px;
+  }
+}
