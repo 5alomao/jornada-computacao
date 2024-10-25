@@ -6,6 +6,7 @@
   background-position: right;
   background-size: contain;
   background-attachment: fixed;
+  border-bottom: 30px solid var;
   color: var(--white);
 }
 
@@ -35,20 +36,20 @@
   grid-template-columns: 80% 20%;
   justify-items: center;
   align-items: center;
-  /* background-color: var(--black); */
   background-color: #141414bb;
-  padding: 3rem 0;
-  /* border-top: 2px solid var(--blue); */
+  padding: 3rem 1.5rem;
   border-radius: 5px;
   border-bottom: 5px solid var(--blue);
 }
 
-.topic-card div h3 {
+.topic-card-texts h3 {
+  font-size: 1.8rem;
   margin-bottom: 1rem;
 }
 
-.topic-card p {
+.topic-card-texts p {
   text-align: justify;
+  font-size: 1.1rem;
   width: 90%;
 }
 
@@ -59,5 +60,47 @@
   background-color: #222222bb;
   padding: 2rem;
   border-radius: 100%;
+  justify-self: right;
   box-shadow: 1px 1px 10px var(--white);
+}
+
+@media (max-width: 768px) {
+  .topic-card i {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .topic-card-texts h3 {
+    font-size: 1.4rem;
+    width: 90%;
+  }
+
+  .topic-card-texts p {
+    font-size: 1rem;
+    width: 85%;
+  }
+
+  .topic-card i {
+    padding: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .topic-card {
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 3rem;
+  }
+
+  .topic-card-texts h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .topic-card-texts p {
+    width: 100%;
+    font-size: 1.1rem;
+  }
 }

@@ -75,6 +75,7 @@
 }
 
 .audience-card p {
+  font-size: 1.1rem;
   text-align: justify;
 }
 
@@ -102,21 +103,7 @@
     padding: 5rem 0;
   }
 
-  .audience-card h3 {
-    font-size: 1.2rem;
-  }
-
   .audience-card {
     width: 100%;
-  }
-}
-
-@media (max-width: 400px) {
-  .audience-card h3 {
-    font-size: 1.1rem;
-  }
-
-  .audience-card {
-    justify-content: center;
   }
 }
