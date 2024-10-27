@@ -16,6 +16,10 @@ html {
   --blue: #1e90ff;
   --dark-blue: #04205e;
   --dark-blue-2: #4169e1;
+  --diamond: #74efff;
+  --gold: #ffd700;
+  --silver: #c0c0c0;
+  --bronze: #cd7f32;
 }
 
 body {
@@ -49,6 +53,32 @@ a {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+}
+
+/* SECTION GLOBAL STYLE */
+.home,
+.audience,
+.topics,
+.speakers,
+.schedule,
+.about {
+  padding: 5% 10%;
+}
+
+/* SECTION TITLE GLOBAL STYLE */
+.section-title {
+  margin-bottom: 5rem;
+  text-align: center;
+  color: var(--white);
+}
+
+.section-title h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-title p {
+  font-size: 1.1rem;
 }
 
 @media (max-width: 1300px) {

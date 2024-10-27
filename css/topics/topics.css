@@ -1,5 +1,4 @@
 .topics {
-  padding: 5% 10%;
   background-color: var(--black);
   background-image: url("/assets/images/fundo3.png");
   background-repeat: no-repeat;
@@ -8,20 +7,6 @@
   background-attachment: fixed;
   border-bottom: 30px solid var;
   color: var(--white);
-}
-
-.topics-title {
-  text-align: center;
-  margin-bottom: 5rem;
-}
-
-.topics-title h2 {
-  font-size: 2.2rem;
-  margin-bottom: 0.5rem;
-}
-
-.topics-title p {
-  font-size: 1.1rem;
 }
 
 .topics-cards {

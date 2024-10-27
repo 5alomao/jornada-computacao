@@ -87,6 +87,11 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html#about">Sobre</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#supporters"
+                >Patrocinadores</a
+              >
+            </li>
             <a href="https://bit.ly/jornadacomp2024" target="_blank"
               ><span class="subscribe">INSCREVA-SE</span></a
             >
@@ -157,12 +162,9 @@
 
       <section id="audience" class="audience">
         <div class="grid-bg"></div>
-        <header class="audience-title">
-          <div>
-            <h2>Para quem é a</h2>
-            <h2 class="eventNameColor">Jornada da Computação</h2>
-          </div>
-          <!-- <i class="fa-solid fa-user-group"></i> -->
+        <header class="section-title audience-title">
+          <h2>Para quem é a</h2>
+          <h2 class="eventNameColor">Jornada da Computação</h2>
         </header>
         <div class="audience-cards">
           <div class="audience-card">
@@ -187,7 +189,7 @@
       </section>
 
       <section class="topics">
-        <header class="topics-title">
+        <header class="section-title">
           <h2>Temas Abordados</h2>
           <p>Explore conceitos que moldam o futuro da área</p>
         </header>
@@ -239,21 +241,21 @@
         </div>
       </section>
 
-      <!-- <section id="speakers" class="speakers">
-        <header class="speakers-title">
+      <section id="speakers" class="speakers">
+        <header class="section-title">
           <h2>Conheça os palestrantes confirmados</h2>
         </header>
       </section>
 
       <section id="schedule" class="schedule">
-        <header class="schedule-title">
+        <header class="section-title">
           <h2>Confira nossa agenda</h2>
           <p>Saiba quando e onde ocorrerão nossa programação</p>
         </header>
-      </section> -->
+      </section>
 
       <section id="about" class="about">
-        <header class="about-title">
+        <header class="section-title about-title">
           <h2>Conheça um pouco sobre a</h2>
           <h2 class="eventNameColor">Jornada da Computação</h2>
         </header>
@@ -262,12 +264,11 @@
             <div class="square-front">
               <h1>Como funciona a semana do evento?</h1>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
-                cupiditate dolorum illo, vitae accusantium natus minus magnam
-                aliquid quo, cumque ex excepturi porro non fuga rerum odio!
-                Molestiae, nam totam? Est cum illo consequatur. Quos a explicabo
-                voluptatem. Neque suscipit voluptate minima cum corrupti earum
-                nobis perferendis fugit libero temporibus.
+                A semana do evento será organizada com palestras presenciais
+                pela manhã, minicursos também presenciais à tarde e palestras
+                remotas à noite. Além disso, haverá competições de esports e
+                programação ao longo da semana, proporcionando uma experiência
+                rica em aprendizado e interação.
               </p>
             </div>
           </div>
@@ -290,10 +291,12 @@
         </div>
       </section>
 
-      <section class="supporters">
-        <header class="supporters-title">
-          <h2>Conheça os Patrocinadores do evento</h2>
+      <section id="supporters" class="supporters">
+        <header class="section-title supporters-title">
+          <h2>Juntos, Fazendo a Diferença</h2>
+          <p>Conheça os Patrocinadores do Evento</p>
         </header>
+
         <div class="diamond-supporters">
           <div class="level-title diamond">
             <h1>Nível Diamante</h1>
@@ -302,43 +305,107 @@
           <div class="supporters-list">
             <div class="supporters-card">
               <img src="assets/images/logo-axnet.png" alt="Logo da AXNET" />
-              <a href="https://www.axnet.com.br/" target="_blank"
-                >Visite o site!</a
-              >
+              <div class="supporters-card-contacts">
+                <a href="https://www.axnet.com.br/" target="_blank"
+                  ><i class="fa-solid fa-globe"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/axnetprovedor/"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="https://wa.me/5535997468300" target="_blank"
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+              </div>
             </div>
           </div>
         </div>
+
         <div class="gold-supporters">
           <div class="level-title gold">
             <h1>Nível Ouro</h1>
             <i class="fa-solid fa-diamond"></i>
           </div>
           <div class="supporters-list">
-            <div class="supporters-card"></div>
+            <!-- <div class="supporters-card">
+              <img src="" alt="" />
+              <div class="supporters-card-contacts">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div> -->
           </div>
         </div>
+
         <div class="silver-supporters">
           <div class="level-title silver">
             <h1>Nível Prata</h1>
             <i class="fa-solid fa-diamond"></i>
           </div>
           <div class="supporters-list">
-            <div class="supporters-card"></div>
+            <div class="supporters-card">
+              <img
+                src="assets/images/logo-dallstudiohair.png"
+                alt="Logo da Dall Studio Hair"
+              />
+              <div class="supporters-card-contacts">
+                <a
+                  href="https://www.instagram.com/dallstudiohair/"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="https://wa.me/5535998687598" target="_blank"
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+              </div>
+            </div>
           </div>
         </div>
+
         <div class="bronze-supporters">
           <div class="level-title bronze">
             <h1>Nível Bronze</h1>
             <i class="fa-solid fa-diamond"></i>
           </div>
           <div class="supporters-list">
-            <div class="supporters-card"></div>
+            <div class="supporters-card">
+              <img
+                src="assets/images/logo-fastburguer.png"
+                alt="Logo da Fast Burguer"
+              />
+              <div class="supporters-card-contacts">
+                <a
+                  href="https://www.instagram.com/fast_burguermachado/"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="https://wa.me/5535999345980" target="_blank"
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+              </div>
+            </div>
           </div>
         </div>
 
-        <a href="https://forms.gle/U3opBts3uH3wMQg1A"
-          ><span class="supporter-btn">SEJA UM PATROCINADOR</span></a
-        >
+        <section class="supporters-invite">
+          <header class="section-title">
+            <h2>Seja você também<br />um Patrocinador</h2>
+            <i class="fa-regular fa-handshake"></i>
+          </header>
+          <div class="invite-container">
+            <p>
+              Participe como patrocinador da Jornada da Computação e conecte sua
+              marca com estudantes e profissionais de tecnologia! Seja parte
+              desse evento único, que promove inovação e capacitação, e tenha a
+              oportunidade de divulgar sua empresa para um público especializado
+              e engajado.
+            </p>
+          </div>
+
+          <a href="https://forms.gle/U3opBts3uH3wMQg1A" target="_blank"
+            ><span class="supporter-btn">SEJA UM PATROCINADOR</span></a
+          >
+        </section>
       </section>
     </main>
 

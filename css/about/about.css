@@ -1,16 +1,5 @@
 .about {
-  padding: 5% 10%;
   background-color: var(--black);
-}
-
-.about-title {
-  margin-bottom: 8rem;
-  text-align: center;
-  color: var(--white);
-}
-
-.about-title h2 {
-  font-size: 2.2rem;
 }
 
 .about-title > h2.eventNameColor {
@@ -19,6 +8,7 @@
 
 .about-container {
   display: grid;
+  margin-top: 8rem;
   gap: 5rem;
   grid-template-columns: 1fr 1fr;
 }

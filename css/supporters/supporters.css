@@ -3,17 +3,6 @@
   padding: 5% 10%;
 }
 
-.supporters-title {
-  color: var(--white);
-  text-align: center;
-  margin-bottom: 5rem;
-}
-
-.supporters-title h2 {
-  font-size: 2.2rem;
-  margin-bottom: 0.5rem;
-}
-
 .level-title {
   display: flex;
   justify-content: space-between;
@@ -28,60 +17,69 @@
 }
 
 .diamond {
-  color: #74efff;
-  border-bottom: 2px solid #74efff;
+  color: var(--diamond);
+  border-bottom: 2px solid var(--diamond);
 }
 
 .diamond i {
-  box-shadow: 1px 1px 10px #74efff;
+  box-shadow: 1px 1px 10px var(--diamond);
 }
 
 .gold {
-  color: #ffd700;
-  border-bottom: 2px solid #ffd700;
+  color: var(--gold);
+  border-bottom: 2px solid var(--gold);
 }
 
 .gold i {
-  box-shadow: 1px 1px 10px #ffd700;
+  box-shadow: 1px 1px 10px var(--gold);
 }
 
 .silver {
-  color: #c0c0c0;
-  border-bottom: 2px solid #c0c0c0;
+  color: var(--silver);
+  border-bottom: 2px solid var(--silver);
 }
 
 .silver i {
-  box-shadow: 1px 1px 10px #c0c0c0;
+  box-shadow: 1px 1px 10px var(--silver);
 }
 
 .bronze {
-  color: #cd7f32;
-  border-bottom: 2px solid #cd7f32;
+  color: var(--bronze);
+  border-bottom: 2px solid var(--bronze);
 }
 
 .bronze i {
-  box-shadow: 1px 1px 10px #cd7f32;
+  box-shadow: 1px 1px 10px var(--bronze);
 }
 
 .supporters-list {
   padding: 2rem 0;
+  margin: 1rem 0;
   display: flex;
   justify-content: center;
   gap: 2rem;
 }
-
-.supporters-card a {
-  display: block;
-  text-align: center;
+.supporters-card-contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  gap: 1rem;
+}
+.supporters-card-contacts a {
   transition: color 0.3s ease-in-out;
 }
 
-.supporters-card a:hover {
+.supporters-card-contacts a:hover {
   color: var(--blue);
 }
 
+.supporters-card-contacts a i {
+  font-size: 2rem;
+}
+
 .diamond-supporters .supporters-card img {
-  width: 400px;
+  width: 350px;
 }
 
 .gold-supporters .supporters-card img {
@@ -89,11 +87,47 @@
 }
 
 .silver-supporters .supporters-card img {
-  width: 220px;
+  width: 250px;
 }
 
 .bronze-supporters .supporters-card img {
-  width: 170px;
+  width: 200px;
+}
+
+.supporters-invite .section-title {
+  border-left: 2px solid var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1rem;
+  margin-top: 5rem;
+  text-align: left;
+}
+
+.supporters-invite .section-title i {
+  font-size: 8rem;
+  color: var(--white);
+  padding: 1rem;
+  border: 2px solid var(--white);
+  border-radius: 5px;
+}
+
+.invite-container {
+  background-color: var(--blue);
+  box-shadow: -20px -20px 2px var(--white);
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.invite-container p {
+  border-top: 3px solid var(--white);
+  color: var(--white);
+  text-align: justify;
+  padding: 2rem 0;
+  border-bottom: 3px solid var(--white);
 }
 
 .supporter-btn {
@@ -120,32 +154,59 @@
   }
 
   .gold-supporters .supporters-card img {
-    width: 200px;
+    width: 250px;
   }
 
   .silver-supporters .supporters-card img {
-    width: 170px;
+    width: 200px;
   }
 
   .bronze-supporters .supporters-card img {
-    width: 140px;
+    width: 150px;
+  }
+
+  .invite-container {
+    width: 60%;
   }
 }
 
 @media (max-width: 576px) {
+  .supporters-invite .section-title {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .diamond-supporters,
+  .gold-supporters,
+  .silver-supporters,
+  .bronze-supporters {
+    margin-bottom: 5rem;
+  }
+
+  .level-title {
+    flex-direction: column-reverse;
+    gap: 2rem;
+    align-items: center;
+  }
+
   .diamond-supporters .supporters-card img {
     width: 250px;
   }
 
   .gold-supporters .supporters-card img {
-    width: 150px;
+    width: 200px;
   }
 
   .silver-supporters .supporters-card img {
-    width: 130px;
+    width: 150px;
   }
 
   .bronze-supporters .supporters-card img {
     width: 100px;
+  }
+
+  .invite-container {
+    width: 80%;
   }
 }
