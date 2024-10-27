@@ -1,0 +1,138 @@
+.about {
+  background-color: var(--black);
+}
+
+.about-title > h2.eventNameColor {
+  margin: 0 auto;
+}
+
+.about-container {
+  display: grid;
+  margin-top: 8rem;
+  gap: 5rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-card {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--blue);
+  border-radius: 5px;
+  color: var(--white);
+  box-shadow: 30px -30px 2px var(--white);
+}
+
+.square-front {
+  border-top: 5px solid var(--white);
+  padding: 3rem 0;
+  border-bottom: 5px solid var(--white);
+}
+
+.about-card div h1 {
+  font-size: 2.2rem;
+}
+
+.about-card div p {
+  margin-top: 3rem;
+  font-size: 1.1rem;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  width: 100%;
+  padding-left: 1rem;
+  border-left: 2px solid var(--white);
+}
+
+.about-text h2 {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.about-text h1 {
+  font-size: 2.3rem;
+  margin-bottom: 5px;
+}
+
+.about-text p {
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.about-text .brands {
+  display: flex;
+  justify-content: left;
+  margin-top: 2rem;
+  height: 100%;
+  align-items: end;
+  gap: 2rem;
+}
+
+.about-text .brands a {
+  font-size: 4rem;
+  color: var(--white);
+  transition: color 0.3s ease-in-out;
+}
+
+.about-text .brands a:hover {
+  color: var(--blue);
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    display: flex;
+    gap: 5rem;
+    flex-direction: column-reverse;
+  }
+
+  .about-text {
+    text-align: left;
+    width: 70%;
+  }
+
+  .about-text p {
+    text-align: left;
+    width: 70%;
+  }
+
+  .about-text .brands {
+    margin-top: 5rem;
+    justify-content: left;
+  }
+
+  .about-card {
+    width: 70%;
+    margin: 0 0 0 auto;
+    padding: 1rem;
+    background-color: var(--blue);
+    border-radius: 5px;
+    color: var(--white);
+    box-shadow: 30px -30px 2px var(--white);
+  }
+}
+
+@media (max-width: 576px) {
+  .about-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-text p {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+  }
+
+  .about-text .brands {
+    margin-top: 5rem;
+    justify-content: center;
+  }
+
+  .about-card {
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 20px -20px 2px var(--white);
+  }
+}

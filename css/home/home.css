@@ -3,7 +3,6 @@
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   background: linear-gradient(to right, var(--black) 65%, #04205e);
-  padding: 5% 10%;
   gap: 2rem;
   color: var(--white);
 }

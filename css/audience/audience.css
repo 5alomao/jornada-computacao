@@ -1,51 +1,18 @@
 .audience {
   color: var(--white);
-  padding: 5% 10%;
-  /* overflow: hidden; */
   background-image: url("/assets/images/fundo3.png");
-  background-color: var(--black);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
   background-attachment: fixed;
+  background-color: var(--black);
 }
-
-/* .grid-bg {
-  position: absolute;
-  background-image: linear-gradient(90deg, var(--blue) 1px, transparent 0),
-    linear-gradient(180deg, var(--blue) 1px, transparent 0);
-  background-size: 7.5rem 7.5rem;
-  transform: rotate(-14deg);
-  height: 35rem;
-  background-position: 50%;
-  width: 35rem;
-  right: 0;
-  z-index: 1;
-} */
 
 .audience-title {
   border-left: 2px solid var(--white);
   padding-left: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 5rem;
+  text-align: left;
 }
-
-.audience-title h2 {
-  font-size: 2.2rem;
-}
-
-/* .audience-title i {
-  font-size: 5rem;
-  z-index: 3;
-  color: var(--white);
-  border: 2px solid var(--white);
-  background-color: #222222bb;
-  padding: 2rem;
-  border-radius: 100%;
-  box-shadow: 1px 1px 10px var(--white);
-} */
 
 .audience-cards {
   display: grid;
@@ -58,7 +25,6 @@
 .audience-card {
   z-index: 2;
   width: 100%;
-  /* background-color: var(--black); */
   background-color: #282828;
   border-radius: 5px;
   padding: 1.5rem;
@@ -75,6 +41,7 @@
 }
 
 .audience-card p {
+  font-size: 1.1rem;
   text-align: justify;
 }
 
@@ -102,21 +69,7 @@
     padding: 5rem 0;
   }
 
-  .audience-card h3 {
-    font-size: 1.2rem;
-  }
-
   .audience-card {
     width: 100%;
-  }
-}
-
-@media (max-width: 400px) {
-  .audience-card h3 {
-    font-size: 1.1rem;
-  }
-
-  .audience-card {
-    justify-content: center;
   }
 }
