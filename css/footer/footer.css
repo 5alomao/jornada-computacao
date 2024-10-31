@@ -90,3 +90,17 @@
     gap: 2rem;
   }
 }
+
+@media (max-width: 576px) {
+  .footer-items {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-item-card {
+    height: 100px;
+
+    & .address a {
+      text-align: center;
+    }
+  }
+}

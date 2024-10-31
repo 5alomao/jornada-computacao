@@ -1,0 +1,92 @@
+[
+  {
+    "nome": "José Erick",
+    "imagem": "assets/images/jose.png",
+    "tipo": "Palestra Presencial",
+    "tema": "Relatos e Experiências de P&D em Tecnologia Assistiva e Inclusão",
+    "data": "11/11 - Segunda-Feira",
+    "hora": "Às 09:30",
+    "link": "https://bit.ly/jornadacomp2024"
+  },
+  {
+    "nome": "Wallace Pereira",
+    "imagem": "assets/images/wallace.png",
+    "tipo": "Palestra Remota",
+    "tema": "Trajetória na T.I",
+    "data": "11/11 - Segunda-Feira",
+    "hora": "Às 19:15",
+    "link": "https://bit.ly/jornadacomp2024"
+  },
+  {
+    "nome": "Igor Duarte",
+    "imagem": "assets/images/igor.png",
+    "tipo": "Palestra Remota",
+    "tema": "Aplicando Machine Learning para Solução de Problemas",
+    "data": "11/11 - Segunda-Feira",
+    "hora": "Às 20:30",
+    "link": "https://bit.ly/jornadacomp2024"
+  },
+  {
+    "nome": "Emerson e Fábio",
+    "imagem": "assets/images/emerson-e-fabio.png",
+    "tipo": "Palestra Presencial",
+    "tema": "Autismo e Tecnologia",
+    "data": "12/11 - Terça-Feira",
+    "hora": "Às 09:00",
+    "link": "https://bit.ly/jornadacomp2024"
+  },
+  {
+    "nome": "João Benedito",
+    "imagem": "assets/images/joao.png",
+    "tipo": "Palestra Presencial",
+    "tema": "Perícia Computacional e Inteligência Cibernética no Combate à Criminalidade",
+    "data": "12/11 - Terça-Feira",
+    "hora": "Às 09:30",
+    "link": "https://bit.ly/jornadacomp2024"
+  },
+  {
+    "nome": "Fernanda Kipper",
+    "imagem": "assets/images/fernanda.png",
+    "tipo": "Palestra Remota",
+    "tema": "O Guia Definitivo para Você Começar no Mercado de Tecnologia",
+    "data": "12/11 - Terça-Feira",
+    "hora": "Às 19:15",
+    "link": "https://bit.ly/jornadacomp2024"
+  },
+  {
+    "nome": "Daniela de Almeida",
+    "imagem": "assets/images/daniela.png",
+    "tipo": "Palestra Remota",
+    "tema": "Hard e Soft Skills e o Programa Oracle Academy",
+    "data": "12/11 - Terça-Feira",
+    "hora": "Às 20:30",
+    "link": "https://bit.ly/jornadacomp2024"
+  },
+  {
+    "nome": "Cristiane Barbosa",
+    "imagem": "assets/images/cristiane.png",
+    "tipo": "Palestra Presencial",
+    "tema": "Liderença Feminina em T.I no Campus Machado",
+    "data": "13/11 - Quarta-Feira",
+    "hora": "Às 09:00",
+    "link": "https://bit.ly/jornadacomp2024"
+  },
+  {
+    "nome": "Leandro Paiva",
+    "imagem": "assets/images/leandro.png",
+    "tipo": "Palestra Presencial",
+    "tema": "Tema a ser definido",
+    "data": "13/11 - Quarta-Feira",
+    "hora": "Às 09:30",
+    "link": "https://bit.ly/jornadacomp2024"
+  },
+  {
+    "nome": "Gilberto Prado",
+    "imagem": "assets/images/gilberto.png",
+    "tipo": "Palestra Presencial",
+    "tema": "Empreendedorismo e Carreira na Área de Tecnologia",
+    "data": "13/11 - Quarta-Feira",
+    "hora": "Às 09:30",
+    "link": "https://bit.ly/jornadacomp2024"
+  }
+]

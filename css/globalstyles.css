@@ -26,6 +26,7 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   overflow-x: hidden;
+  height: fit-content;
   background-color: #282828;
 }
 
@@ -60,7 +61,6 @@ a {
 .audience,
 .topics,
 .speakers,
-.schedule,
 .about {
   padding: 5% 10%;
 }
