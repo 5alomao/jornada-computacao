@@ -81,6 +81,28 @@ a {
   font-size: 1.1rem;
 }
 
+#backToTopBtn {
+  background-color: var(--white);
+  position: fixed;
+  padding: 1rem;
+  display: none;
+  border-radius: 100%;
+  right: 0;
+  bottom: 0;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  & i {
+    font-size: 2rem;
+    color: var(--blue);
+  }
+
+  &:hover {
+    box-shadow: 1px 1px 8px var(--white);
+    cursor: pointer;
+  }
+}
+
 @media (max-width: 1300px) {
   html {
     font-size: 14px;

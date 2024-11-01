@@ -27,7 +27,7 @@ function createSpeakerCard(speaker) {
     <div class="speaker-card">
       <div class="speaker-left">
         <h1>${speaker.nome}</h1>
-        <img src="${speaker.imagem}" alt="Imagem do palestrante ${speaker.nome}.">
+        <img src="${speaker.imagem}" alt="Imagem do(a) palestrante ${speaker.nome}.">
       </div>
       <div class="speaker-right">
         <div class="speaker-card-topic">
