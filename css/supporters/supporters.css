@@ -106,7 +106,7 @@
 
 .bronze-supporters .supporters-list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
 }
@@ -124,6 +124,10 @@
   border-radius: 100%;
 }
 
+#pesqueiro-ney-img {
+  border-radius: 100%;
+}
+
 #tdc {
   grid-column: 1/-1;
 }
@@ -136,12 +140,6 @@
   background-color: var(--white);
   border-radius: 10px;
 }
-
-/* #embrapii-img {
-  display: block;
-  margin: 0 auto;
-  width: 200px;
-} */
 
 .supporters-invite .section-title {
   border-left: 2px solid var(--white);
@@ -253,6 +251,10 @@
 
   .silver-supporters .supporters-card img {
     width: 150px;
+  }
+
+  .bronze-supporters .supporters-list {
+    grid-template-columns: 1fr;
   }
 
   .bronze-supporters .supporters-card img {
