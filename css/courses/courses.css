@@ -1,0 +1,49 @@
+.courses {
+  background-color: var(--black);
+}
+
+.courses-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: var(--blue);
+  gap: 5rem;
+}
+
+.courses-table h2 {
+  width: fit-content;
+}
+
+.courses-table h2::after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 2px;
+  background-color: var(--blue);
+  margin: 5px 0;
+}
+
+.day {
+  /* background-color: red; */
+  justify-content: center;
+}
+
+.courses-schedule {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 2rem;
+}
+
+.course-card {
+  padding: 1rem 0;
+  color: var(--white);
+  border-bottom: 1px solid var(--blue);
+}
+
+.course-card h3 {
+  font-size: 1.4rem;
+}
+
+.course-card p {
+  font-size: 0.7rem;
+}
