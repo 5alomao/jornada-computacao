@@ -4,16 +4,17 @@
 
 .courses-table {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   color: var(--blue);
   gap: 5rem;
 }
 
-.courses-table h2 {
+.day h2 {
+  margin: 0 auto;
   width: fit-content;
 }
 
-.courses-table h2::after {
+.day h2::after {
   content: "";
   display: block;
   width: 30%;
@@ -22,9 +23,16 @@
   margin: 5px 0;
 }
 
-.day {
-  /* background-color: red; */
-  justify-content: center;
+.last-day {
+  width: 50%;
+  margin: 0 auto;
+  grid-column: 1/-1;
+}
+
+.day > h2 + p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: var(--white);
 }
 
 .courses-schedule {
@@ -35,15 +43,60 @@
 }
 
 .course-card {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  align-items: center;
   padding: 1rem 0;
+  gap: 1rem;
   color: var(--white);
   border-bottom: 1px solid var(--blue);
+
+  & i {
+    font-size: 2rem;
+    color: var(--blue);
+  }
+
+  & h3 {
+    font-size: 1.4rem;
+  }
+
+  & p {
+    font-size: 0.7rem;
+  }
 }
 
-.course-card h3 {
-  font-size: 1.4rem;
+.courses-subscribe-text {
+  font-size: 2rem;
+  color: var(--white);
+  margin-top: 3rem;
+  text-align: center;
 }
 
-.course-card p {
-  font-size: 0.7rem;
+.courses-btn {
+  display: block;
+  width: fit-content;
+  font-size: 1.2rem;
+  box-shadow: 1px 1px 8px var(--blue);
+  background-color: var(--blue);
+  margin: 3rem auto;
+  padding: 10px 30px;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}
+
+.courses-btn:hover {
+  box-shadow: 1px 1px 20px var(--blue);
+  background-color: var(--white);
+  color: var(--blue);
+}
+
+@media (max-width: 768px) {
+  .courses-table {
+    grid-template-columns: 1fr;
+  }
+
+  .day {
+    width: 70%;
+    margin: 0 auto;
+  }
 }
