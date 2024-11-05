@@ -1,6 +1,6 @@
 .supporters {
   background-color: var(--black);
-  padding: 5% 10%;
+  
 }
 
 .level-title {
@@ -135,10 +135,6 @@
 
 #pesqueiro-ney-img {
   border-radius: 100%;
-}
-
-#tdc {
-  /* grid-column: 1/-1; */
 }
 
 #paj-img {
