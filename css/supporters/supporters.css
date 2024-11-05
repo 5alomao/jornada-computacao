@@ -52,6 +52,15 @@
   box-shadow: 1px 1px 10px var(--bronze);
 }
 
+.iron {
+  color: var(--iron);
+  border-bottom: 2px solid var(--iron);
+}
+
+.iron i {
+  box-shadow: 1px 1px 10px var(--iron);
+}
+
 .supporters-list {
   padding: 2rem 0;
   margin: 1rem 0;
@@ -129,16 +138,39 @@
 }
 
 #tdc {
-  grid-column: 1/-1;
+  /* grid-column: 1/-1; */
+}
+
+#paj-img {
+  border-radius: 100%;
 }
 
 #terra-de-cultivo-img {
-  display: block;
-  width: 40%;
-  margin: 0 auto;
+  height: 200px;
+  border-radius: 100%;
   padding: 10px;
   background-color: var(--white);
-  border-radius: 10px;
+}
+
+.iron-supporters .supporters-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.iron-supporters .supporters-card img {
+  width: 150px;
+}
+
+#despachante-thiago-img {
+  background-color: var(--black);
+  border-radius: 100%;
+}
+
+#pesqueiro-pe-da-serra-img {
+  border-radius: 100%;
 }
 
 .supporters-invite .section-title {
@@ -216,6 +248,20 @@
     width: 150px;
   }
 
+  #terra-de-cultivo-img {
+    height: 150px;
+  }
+
+  .iron-supporters .supporters-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+
+  .iron-supporters .supporters-card img {
+    width: 100px;
+  }
+
   .invite-container {
     width: 60%;
   }
@@ -254,10 +300,18 @@
   }
 
   .bronze-supporters .supporters-list {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .bronze-supporters .supporters-card img {
+    width: 100px;
+  }
+
+  #terra-de-cultivo-img {
+    height: 100px;
+  }
+
+  .iron-supporters .supporters-card img {
     width: 100px;
   }
 
