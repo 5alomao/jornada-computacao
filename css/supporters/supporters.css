@@ -1,6 +1,5 @@
 .supporters {
   background-color: var(--black);
-  
 }
 
 .level-title {
@@ -160,6 +159,12 @@
   width: 150px;
 }
 
+#coopama-img {
+  height: 150px;
+  background-color: var(--white);
+  border-radius: 100%;
+}
+
 #despachante-thiago-img {
   background-color: var(--black);
   border-radius: 100%;
@@ -246,6 +251,10 @@
 
   #terra-de-cultivo-img {
     height: 150px;
+  }
+
+  #coopama-img {
+    height: 100px;
   }
 
   .iron-supporters .supporters-list {
