@@ -140,6 +140,13 @@
   border-radius: 100%;
 }
 
+#coetagri-img {
+  height: 200px;
+  border-radius: 100%;
+  background-color: var(--white);
+  padding: 10px;
+}
+
 #terra-de-cultivo-img {
   height: 200px;
   border-radius: 100%;
@@ -253,6 +260,10 @@
     height: 150px;
   }
 
+  #coetagri-img {
+    height: 150px;
+  }
+
   #coopama-img {
     height: 100px;
   }
@@ -313,6 +324,10 @@
   }
 
   #terra-de-cultivo-img {
+    height: 100px;
+  }
+
+  #coetagri-img {
     height: 100px;
   }
 
